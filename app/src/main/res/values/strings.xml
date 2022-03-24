@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Exercise_PAW1</string>
+    <string name="judul">Todo App</string>
+    <!--   Welcome -->
+    <string name="welcome">Welcome in Todo App</string>
+    <string name="register">Register</string>
+    <string name="keterangan">New to Todo App?</string>
+    <string name="welcome2">Selamat Datang</string>
+
+    <string name="getNama">Ini Adalah Nama</string>
+    <string name="hTask">Ini adalah Task</string>
+    <string name="hJenis">Ini adalah Jenis Task</string>
+    <string name="hTime">Ini adalah Time Task</string>
+
+    <!--  Bagian Judul Text  -->
+    <string name="namaTxt">Nama</string>
+    <string name="passTxt">Password</string>
+    <string name="emailTxt">Email</string>
+    <string name="repassTxt">Re-Password</string>
+
+    <string name="taskTxt">Task</string>
+    <string name="jenisTxt">Jenis Task</string>
+    <string name="timeTxt">Time Task</string>
+
+    <!--  Text Isi  -->
+    <string name="mnNama">Masukkan Nama</string>
+    <string name="mnPass">Masukkan Password</string>
+    <string name="mnEmail">Masukkan Email</string>
+    <string name="mnTask">Masukkan Task</string>
+    <string name="mnJenis">Masukkan Jenis Task</string>
+    <string name="mnTime">Masukkan Lama Task</string>
+
+    <!--  Button  -->
+    <string name="btSignin">Sign-In</string>
+
+    <!--  Item  -->
+    <string name="itSubmit">Submit</string>
+    <string name="Logout">Logout</string>
+</resources>
