@@ -21,9 +21,9 @@ public class Task extends AppCompatActivity {
 
     FloatingActionButton btnAction;
 
-    TextView Txtnama;
+    TextView Txtnama,signNama;
 
-    String putNama,stTask,stJenis,stTime;
+    String putNama,stTask,stJenis,stTime, putSignNama;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,15 +37,21 @@ public class Task extends AppCompatActivity {
         btnAction   = findViewById(R.id.flnButton);
 
         Txtnama = findViewById(R.id.gtNama);
+        signNama = findViewById(R.id.gtNama2);
 
 
         // Penggunaan Bundle
         Bundle bundle = getIntent().getExtras();
-
         // Mendapatkan Bundle Register
         putNama = bundle.getString("a");
-
         Txtnama.setText(putNama);
+
+        // Penggunaan Bundle
+        Bundle sign = getIntent().getExtras();
+        // Mendapatkan data bundle Sign di mainActivity
+        putSignNama = sign.getString("data");
+        signNama.setText(putSignNama);
+
 
         btnAction.setOnClickListener(new View.OnClickListener() {
             @Override

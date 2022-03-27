@@ -72,6 +72,16 @@ public class MainActivity extends AppCompatActivity {
 
                     Toast.makeText(getApplicationContext(), "Login Berhasil", Toast.LENGTH_SHORT).show();
 
+                    Bundle nama = new Bundle();
+
+                    nama.putString("data", TxtEdtNama.getText().toString().trim());
+
+                    Intent task = new Intent(getApplicationContext(), Task.class);
+
+                    task.putExtras(nama);
+
+                    startActivity(task);
+
                 }
                 else {
                     Toast.makeText(getApplicationContext(), "Login Gagal", Toast.LENGTH_SHORT).show();

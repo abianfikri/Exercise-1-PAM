@@ -12,7 +12,7 @@
         <activity
             android:name=".Hasil_Task"
             android:exported="false"
-            android:parentActivityName=".Register"/>
+            android:parentActivityName=".Register" />
         <activity
             android:name=".Task"
             android:exported="false"
